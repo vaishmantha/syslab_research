@@ -6,8 +6,8 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture('ppmaze1.mp4')
-#fgbg = cv2.createBackgroundSubtractorMOG2()   # only works on mac
-fgbg = cv2.BackgroundSubtractorMOG()   # works on linux
+fgbg = cv2.createBackgroundSubtractorMOG2()   # only works on mac
+#fgbg = cv2.BackgroundSubtractorMOG()   # works on linux
 
 while True:
     ret, frame = cap.read()
