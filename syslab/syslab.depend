@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1526943009 source:c:\users\bobby\desktop\cplusplus\syslab\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SerialPort.h"
+
+1526935094 c:\users\bobby\desktop\cplusplus\syslab\serialport.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1526935070 source:c:\users\bobby\desktop\cplusplus\syslab\serialport.cpp
+	"SerialPort.h"
+
